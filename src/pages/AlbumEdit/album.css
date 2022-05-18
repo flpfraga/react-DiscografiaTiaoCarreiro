@@ -1,0 +1,62 @@
+
+
+.container-album{
+    width: 800px;
+    height: 90vh;
+}
+
+.album-description{
+    display: flex;
+    align-items: center;
+}
+
+.album-description p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 10px;
+    letter-spacing: 1px;
+}
+
+.album-description button{
+    width: 150px;
+    height: 30px;
+    border:0;
+    outline: none;
+    background-color: rgba(0,0,0,0.3);
+    color: #ffffff;
+    border-radius: 15px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.album-description button:hover{
+    transform: scale(1.05);
+    background-color: rgba(0,0,0,1);
+}
+
+
+.album-faixas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.album-faixas ul{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    margin: 0;
+    padding: 10px 0 15px 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+}
+
+.container-nova-faixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

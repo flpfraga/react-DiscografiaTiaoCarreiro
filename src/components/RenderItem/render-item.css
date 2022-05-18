@@ -1,0 +1,29 @@
+.container-faixa{
+    width: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+
+}
+
+.container-faixa p{
+    font-size: 15px;
+}
+
+.end-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.end-list button{
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    transition: 0.05s;
+}
+
+.end-list button:hover{
+    transform: scale(1.05); 
+}

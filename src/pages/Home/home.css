@@ -1,0 +1,187 @@
+.main{
+    width: 850px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: space-between;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.box-view{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    padding: 20px;
+    
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+.text{
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-family: 'Work Sans';
+    letter-spacing: 1px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Work Sans';
+    letter-spacing: 1px;
+    
+}
+
+.input-field{
+    border: 0;
+    width: 80%;
+    height: 40px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    outline: none;
+    padding: 15px;
+    /* padding: 0 20px; */
+}
+
+.input button{
+    border: 0;
+    width: 20%;
+    height: 40px;
+    background-color: rgb(0,0,205);
+    border-radius: 20px;
+    font-family: 'Work Sans';
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.input button:hover{
+    transform: scale(1.05)
+}
+
+.album-details{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: flex-start;
+    overflow-x: auto;
+}
+
+.loading-status{
+    position: relative;
+    top: 50%;
+    left:50%;
+}
+
+.container-new-album{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.new-album-input{
+    width: 850px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(192,192,192,0.8);
+    position: absolute;
+    top: 650px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    animation: sliderY 0.5s;
+}
+
+@keyframes sliderY {
+    from{
+        transform: translateY(90px);
+    }
+    to{
+        transform: translateY(0);
+    }
+    
+}
+
+.new-album-input input{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 250px;
+    height: 30px;
+    outline: none;
+    border:0;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.new-album-input .album-submit{
+    width: 150px;
+    height: 30px;
+    outline: none;
+    border:0;
+    border-radius: 15px;
+    background-color: rgba(0,0,205,0.5);
+    color: #FFFFFF;
+    font-size: 15px;
+    
+}
+.container-close-button{
+    width: 100%;
+    height: 20px    ;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+.new-album-input button{
+    background-color: transparent;
+    border:0;
+}
+
+.new-album-button{
+    width: 200px;
+    height: 50px;
+    border:0;
+    outline: none;
+    background-color: rgba(0,0,205,0.6);
+    border-radius: 30px;
+    position: absolute;
+    top: 650px;
+    
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    animation: sliderX 100ms;
+    transition: 0.5s;
+}
+
+.new-album-button:hover{
+    transform: scale(1.05);
+}
+
+@keyframes sliderX {
+    from{
+        transform: translateX(150px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruda&family=Work+Sans:wght@100&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  
+  
+}
+
+.background-img{
+  width: 900px;
+  height: 100vh;
+  resize: both;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./assets/background.png');
+  background-repeat: no-repeat;
+}
+
+.button {
+  cursor: pointer;
+}

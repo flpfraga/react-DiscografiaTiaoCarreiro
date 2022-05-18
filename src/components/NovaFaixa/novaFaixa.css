@@ -1,0 +1,134 @@
+
+.container-nova-faixa{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    
+}
+
+.container-button button{
+    width: 700px;
+    height: 40px;
+    border: 2px dashed rgba(0,0,0,0.3);
+    border-radius: 25px;
+    background-color:  rgba(50,50,50,0.4);
+    transition:0.5s;
+    
+}
+
+.container-button button:hover{
+    
+    background-color:  rgba(50,50,50,1);
+}
+
+.container-button h4{
+    color: rgba(255,255,255,0.2);
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.container-button h4:hover{
+    transform: scale(1.05);
+    color: rgba(255,255,255,1);
+}
+
+.container-submit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: rgba(128,128,128,0.2);
+    border-radius: 40px;
+    animation: sliderY 0.3s;
+}
+
+@keyframes sliderY {
+    from{
+        transform: translateY(250px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+
+.close-button{
+    width: 100%;
+    height: 25px;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.close-button button{
+    background-color: transparent;
+    outline: none;
+    border: 0;
+}
+
+.container-input{
+    width: 750px;
+    height: 40px;
+    /* border: 1px dashed rgba(0,0,0,0.3);
+    border-radius: 10px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding-bottom:10px;
+    
+}
+
+.container-input input:nth-child(1){
+    width: 10%;
+}
+.container-input input:nth-child(2){
+    width: 65%;
+}
+.container-input input:nth-child(3){
+    width: 20%;
+}
+
+.container-input input{
+    height: 30px;
+    background-color: rgba(255,255,255,0.7);
+    border: 0;
+    outline: none;
+    font-size: 15px;
+    text-align: left;
+    border-radius: 20px;
+    padding: 10px;
+   
+
+}
+
+.container-input input::placeholder{
+    color: rgba(0,0,0,0.8);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.submit-button button{
+    width: 150px;
+    height: 30px;
+    border:0;
+    border-radius: 15px;
+    outline: none;
+    background-color:  rgba(128,128,128,0.8);
+    color:#fff;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Work Sans';
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+.submit-button button:hover{
+    transform: scale(1.05);
+    background-color:  rgba(128,128,128,1);
+}
